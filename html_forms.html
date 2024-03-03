@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form action="/submit_form" method="post">
+        <label for="firstname">First name: </label>
+        <input type="text" placeholder="Enter first_name" id="firstname"><br>
+
+        <label for="lastname">Last name: </label>
+        <input type="text" placeholder="Enter last_name" id="lastname"><br>
+
+        <label for="passwords">Password: </label>
+        <input type="password" placeholder="Enter the password" id="passwords"><br>
+
+        <label for="gender">Select Gender: </label>
+        <input type="radio" value="male" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" value="female" id = "female" name="gender">
+        <label for="female">Female</label><br>
+
+        <label for="country">Select your country</label>
+        <select name="country" id="count">  
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Netherland">Netherland</option>
+            <option value="UK">UK</option><br>
+
+            <input type="checkbox" id="checkbox" value="agree">
+            <label for="checkbox">I agree on the terms and conditions</label>
+            <br>
+
+        </select>
+    </form>    
+</body>
+</html>
